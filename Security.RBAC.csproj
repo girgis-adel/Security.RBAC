@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Security-RBAC-icon.ico</ApplicationIcon>
+    <Title>Security.RBAC</Title>
+    <Authors>Girgis Adel</Authors>
+    <Company>$(Authors), Inc.</Company>
+    <Description>Reusable RBAC (Role-Based Access Control) package for ASP.NET Core with permission-based authorization.</Description>
+    <PackageIcon>Security-RBAC-icon.png</PackageIcon>
+    <PackageTags>RBAC;Authorization;Permissions;ASP.NET Core;Security</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Security-RBAC-icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\gerge\Downloads\Security-RBAC-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.4" />
+  </ItemGroup>
+
+</Project>
