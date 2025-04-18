@@ -11,6 +11,9 @@
     <Description>Reusable RBAC (Role-Based Access Control) package for ASP.NET Core with permission-based authorization.</Description>
     <PackageIcon>Security-RBAC-icon.png</PackageIcon>
     <PackageTags>RBAC;Authorization;Permissions;ASP.NET Core;Security</PackageTags>
+    <PackageProjectUrl>https://github.com/girgis-adel/Security.RBAC</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/girgis-adel/Security.RBAC</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,6 +30,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="9.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
